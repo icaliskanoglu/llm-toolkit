@@ -1,0 +1,7 @@
+version: '3.9'
+
+include:
+  - atlas.yaml 
+  - pgvector.yaml 
+  - qdrant.yaml 
+  - weaviate.yaml 

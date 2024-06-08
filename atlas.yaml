@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  atlas:
+    container_name: atlas
+    image: mongodb/mongodb-atlas-local
+    ports:
+      - 27017:27017
