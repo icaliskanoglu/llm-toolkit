@@ -1,0 +1,7 @@
+
+
+include:
+  - docker-compose-qdrant.yaml
+  - docker-compose-weaviate.yaml
+  - docker-compose-ollama.yaml
+  - docker-compose-ollama-webui.yaml
