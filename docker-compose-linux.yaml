@@ -1,7 +1,0 @@
-
-
-include:
-  - docker-compose-qdrant.yaml
-  - docker-compose-weaviate.yaml
-  - docker-compose-ollama-gpu.yaml
-  - docker-compose-portainer.yaml
