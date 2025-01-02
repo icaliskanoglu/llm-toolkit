@@ -1,0 +1,7 @@
+
+
+include:
+  - qdrant.yaml
+  - weaviate.yaml
+  - ollama.yaml
+  - ollama-webui.yaml

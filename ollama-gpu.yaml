@@ -1,0 +1,14 @@
+
+
+services:
+  ollama:
+    extends:
+      file: ollama.yaml 
+      service: ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

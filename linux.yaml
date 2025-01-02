@@ -1,0 +1,8 @@
+
+
+include:
+  - qdrant.yaml
+  - weaviate.yaml
+  - ollama-gpu.yaml
+  - portainer.yaml
+  - ollama-webui.yaml
